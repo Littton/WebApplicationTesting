@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Interagating Scripts]" parallel="tests">
+  <test name="yahoo_Test(failed)" parallel="tests">
+    <classes>
+      <class name="yahoo_Test.Login_Yahoo_Email">
+        <methods>
+          <include name="LogOUT"/>
+          <include name="StartBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- yahoo_Test.Login_Yahoo_Email -->
+      <class name="keword_Driven_testing.New_Tours_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- keword_Driven_testing.New_Tours_Login -->
+    </classes>
+  </test> <!-- yahoo_Test(failed) -->
+</suite> <!-- Failed suite [Interagating Scripts] -->

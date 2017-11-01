@@ -1,0 +1,16 @@
+package com_Web_Table_Testing;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Capturing_table_Data {
+
+	public static void main(String[] args) {
+		
+	FirefoxDriver driver =new FirefoxDriver();
+	 driver.get("https://www.timeanddate.com/worldclock/");
+	 driver.manage().window().maximize();
+	 
+		
+	}
+
+}

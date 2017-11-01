@@ -1,0 +1,6 @@
+ Feature: Test newTours Applicatio
+  Scenario: Test Login with valid credentials
+  Given Open Firefox Browser and Navigate to Application
+  When User Enters Valid UserName and Password
+  Then User Should be able to logIn Successfully and close the Application
+ 

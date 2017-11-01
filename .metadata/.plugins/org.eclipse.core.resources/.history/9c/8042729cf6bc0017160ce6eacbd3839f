@@ -1,0 +1,33 @@
+<suite name="Interagating Scripts">
+
+ <test verbose="2" name="Keyword Testing">
+ <classes>
+ <class name="keword_Driven_testing.New_Tours_Login"/>
+</classes>
+</test>
+
+ 
+
+  <test verbose="2" name="PC Richard Testing">
+ <classes>
+ <class name="com_MoveHover_Opereation.MoveHover_PC_Richard_Appliances"/>
+</classes>
+</test> ,
+
+ <test verbose="2" name="Read FromExcelTesting">
+ <classes>
+ <class name="com_Excel_Operations.Reading_Data_FromExcel"/>
+</classes>
+</test> 
+
+ <test verbose="2" name="ScreenShots Testing">
+ <classes>
+ <class name="com_Screenshot.Perform_ClickOperation_CapturingScreenShot_NewTours_Links"/>
+</classes>
+</test> 
+
+
+
+</suite>
+
+

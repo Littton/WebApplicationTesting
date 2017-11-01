@@ -1,0 +1,36 @@
+package yahoo_Test;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class Login_Yahoo_Email 
+
+{
+	ChromeDriver driver;
+	
+	@BeforeClass 
+	public void StartBrowser()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Fahima\\Desktop\\chromedriver.exe");
+		driver=new ChromeDriver();
+		System.out.println("==========Browser started=========");
+		driver.get("http://yahoo.com");
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void ClickLogin()
+	{
+		
+		driver.findElementByXPath("html/body/div[2]/div/div/div/div/div/div/div[2]/div/ul/li[1]/a").click();
+		String currentURL=driver.getCurrentUrl();
+		Assert.assertTrue(currentURL.contains("https://login.yahoo.com/config/login?.src="));
+		System.out.println();
+		
+	}
+	
+	
+
+}

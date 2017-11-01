@@ -1,0 +1,22 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Interagating Scripts</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="64a765">  <td>17/10/29 18:51:16</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Login_Yahoo_Email.ClickLogin()[pri:1, instance:yahoo_Test.Login_Yahoo_Email@5f375618]">ClickLogin</td> 
+  <td>TestNG@750460163</td>   <td></td> </tr>
+<tr bgcolor="64a765">  <td>17/10/29 18:51:17</td>   <td>785</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Login_Yahoo_Email.LingIn()[pri:2, instance:yahoo_Test.Login_Yahoo_Email@5f375618]">LingIn</td> 
+  <td>TestNG@750460163</td>   <td></td> </tr>
+<tr bgcolor="64a765">  <td>17/10/29 18:51:27</td>   <td>10955</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Login_Yahoo_Email.LogOUT()[pri:4, instance:yahoo_Test.Login_Yahoo_Email@5f375618]">LogOUT</td> 
+  <td>TestNG@750460163</td>   <td></td> </tr>
+<tr bgcolor="939fd1">  <td>17/10/29 18:51:12</td>   <td>-4044</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="New_Tours_Login.Login()[pri:0, instance:keword_Driven_testing.New_Tours_Login@51565ec2]">Login</td> 
+  <td>TestNG@1686401412</td>   <td></td> </tr>
+<tr bgcolor="64a765">  <td>17/10/29 18:51:22</td>   <td>6141</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Login_Yahoo_Email.PasswordSingIN()[pri:3, instance:yahoo_Test.Login_Yahoo_Email@5f375618]">PasswordSingIN</td> 
+  <td>TestNG@750460163</td>   <td></td> </tr>
+<tr bgcolor="64a765">  <td>17/10/29 18:51:03</td>   <td>-13735</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Login_Yahoo_Email.StartBrowser()[pri:0, instance:yahoo_Test.Login_Yahoo_Email@5f375618]">&gt;&gt;StartBrowser</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@750460163</td>   <td></td> </tr>
+<tr bgcolor="64a765">  <td>17/10/29 18:51:48</td>   <td>31427</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Login_Yahoo_Email.closeBrowser()[pri:0, instance:yahoo_Test.Login_Yahoo_Email@5f375618]">&lt;&lt;closeBrowser</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@750460163</td>   <td></td> </tr>
+<tr bgcolor="939fd1">  <td>17/10/29 18:51:03</td>   <td>-13734</td> <td>&nbsp;</td><td title="&gt;&gt;New_Tours_Login.setup()[pri:0, instance:keword_Driven_testing.New_Tours_Login@51565ec2]">&gt;&gt;setup</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@1686401412</td>   <td></td> </tr>
+<tr bgcolor="939fd1">  <td>17/10/29 18:51:52</td>   <td>35773</td> <td>&nbsp;</td><td title="&lt;&lt;New_Tours_Login.tearDown()[pri:0, instance:keword_Driven_testing.New_Tours_Login@51565ec2]">&lt;&lt;tearDown</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>TestNG@1686401412</td>   <td></td> </tr>
+</table>

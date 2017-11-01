@@ -1,0 +1,16 @@
+<suite name="Interagating Scripts">
+
+ <test verbose="2" name="Keyword Testing">
+ <classes>
+ <class name="keword_Driven_testing.New_Tours_Login"/>
+</classes>
+</test>
+
+ 
+
+
+
+
+</suite>
+
+

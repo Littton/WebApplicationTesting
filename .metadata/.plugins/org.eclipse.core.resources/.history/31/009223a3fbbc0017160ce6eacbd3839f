@@ -1,0 +1,19 @@
+<suite name="Interagating Scripts" paralle=tests>
+
+ <test verbose="2" name="yahoo_Test">
+ <classes>
+ <class name="yahoo_Test.Login_Yahoo_Email"/>
+</classes>
+</test> 
+
+ <test verbose="2" name="Keyword Testing">
+ <classes>
+ <class name="keword_Driven_testing.New_Tours_Login"/>
+</classes>
+</test>
+
+
+ 
+</suite>
+
+
